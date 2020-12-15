@@ -1,0 +1,756 @@
+/*********
+* 日期：2020/10/01
+* 作者：fhj
+* 用途：css部分
+* other：无
+* version：V1.0
+*/
+
+.box {}
+
+.header {
+    height: 160px;
+
+}
+
+.h_top {
+    height: 40px;
+    background: #32373e;
+}
+
+.topCon {
+
+    height: 40px;
+
+
+}
+
+.conLeft {
+    line-height: 40px;
+    height: 40px;
+
+}
+
+.leftTxt1 {}
+
+.leftTxt1 .city1:hover {
+    color: #fff;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 22px;
+    color: #00b38a;
+    margin-right: 31px;
+}
+
+.city {
+    font-size: 14px;
+    color: #00b38a;
+    margin-right: 14px;
+}
+
+.city1 {
+    color: #afb5c0;
+    font-size: 12px;
+    margin-right: 36px;
+}
+
+.ulList {
+
+    font-size: 14px;
+}
+
+.ulList li {
+    float: left;
+    width: 70px;
+    text-align: center;
+
+
+}
+
+.ulList li.w_1 {
+    background: #24272c;
+    width: 72px;
+}
+
+.ulList li a {
+    color: #AFB5C0;
+}
+
+.ulList ul li a:hover {
+    color: #fff;
+}
+
+.conRight {
+    height: 40px;
+}
+
+.conRight ul li a:hover {
+    color: #fff;
+}
+
+.ulList2 {
+    line-height: 40px;
+    font-size: 12px;
+
+}
+
+.ulList2 li {
+    float: left;
+}
+
+.ulList2 li a {
+
+    display: block;
+}
+
+/* 左边右边公用这个小图标  */
+.ulList2 li .btn {
+    background: url('../icons/1.jpg');
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    background-size: 22px 27px;
+}
+
+
+
+.ulList2 li .login {
+    padding-left: 28px;
+
+}
+
+.ulList2 li .login2 {
+    padding-left: 31px;
+    color: #40ae93;
+    margin-right: 16px;
+}
+
+
+.ulList2 li .sx span {
+    padding: 0 12px;
+}
+
+/* 注册右边的距离 */
+.ulList2 li .sx {
+    margin-right: 30px;
+}
+
+/* 顶部导航栏下面的部分 */
+.h_bottom {
+    height: 120px;
+    background: #00b38a;
+}
+
+.botCon {
+
+    height: 120px;
+}
+
+.botConLift {
+    position: relative;
+    width: 520px;
+    height: 120px;
+    background: url('../img/1.jpg') no-repeat;
+    /* 按照宽 226px 缩放 */
+    background-size: 226px 100%;
+}
+
+/* 上边的容器 */
+.imgBox {
+    position: absolute;
+    top: 20px;
+    left: 295px;
+
+}
+
+/* 容器里面的图片 */
+.imgBox img {
+    width: 266px;
+    height: 27px;
+}
+
+/* 下面的文字 */
+.txtBox {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    color: #fff;
+}
+
+.botConRight {
+    width: 476px;
+    height: 120px;
+    position: relative;
+}
+
+.btnBox {
+    height: 36px;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    margin-left: 25px;
+    color: #757575;
+    font-size: 12px;
+}
+
+.txt {
+    width: 163px;
+    height: 36px;
+    margin-right: 25px;
+    /* 首行缩进 */
+    text-indent: 12px;
+}
+
+.pBtn {
+    width: 148px;
+    height: 36px;
+    margin-right: 9px;
+    background: #fff;
+}
+
+/* 这个a 标签里面装的是 获取两个字  */
+.pBtn a {
+    padding: 0px 0px 0px;
+    color: #00c3d3;
+}
+
+.txt2 {
+    width: 94px;
+    height: 36px;
+    /* 首行缩进 */
+    text-indent: 12px;
+}
+
+.btnSub {
+    width: 106px;
+    height: 34px;
+    border: 1px solid #ccefe7;
+    /* 透明的背景色 */
+    background: transparent;
+    /* 框里面的文本颜色 */
+    color: #ccefe7;
+}
+
+/* search start  开始做搜索框*/
+.search {
+    height: 132px;
+    background: #f2f5f4;
+}
+
+.searchCon {
+    height: 102px;
+    padding-top: 30px;
+}
+
+.searchTop {
+    width: 935px;
+    height: 47px;
+    margin-left: 133px;
+
+}
+
+/* 通过设置里面的内容区域 将整个框撑起来 */
+.inp {
+    font-size: 14px;
+    width: 795px;
+    height: 45px;
+    border: 1px solid #e8e8e8;
+}
+
+/* 搜索两个字的样式 */
+.inp1 {
+    font-size: 18px;
+    width: 140px;
+    height: 45px;
+    background-color: #00b38a;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+
+}
+
+/* 下面列表部分 */
+.searchBottom {
+    margin-left: 133px;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.searchBottom li {
+    float: left;
+}
+
+.searchBottom li .fir {
+    color: #777777;
+    padding: 0;
+}
+
+.searchBottom li a {
+    color: #00c1cc;
+    padding: 0 11px;
+}
+
+/* 轮播图 banner */
+.bannerCon {
+    padding-top: 42px;
+}
+
+.banLeft {
+    width: 300px;
+
+}
+
+.banList {
+    font-size: 14px;
+}
+
+.banList li {
+    margin-bottom: 24px;
+}
+
+.banList li a {
+    color: #555555;
+    padding: 0 13px;
+}
+
+.banList li a:first-child {
+    font-size: 17px;
+    padding: 0;
+}
+
+.banRight {
+    width: 840px;
+    position: relative;
+}
+
+.banRtImg {
+    width: 840px;
+    height: 347px;
+}
+
+.banImg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banRight span {
+    width: 22px;
+    height: 34px;
+    color: #757478;
+    font-family: "宋体";
+    font-size: 34px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    display: none;
+}
+
+/* 这个地方比较厉害  hover 加的位置需要注意一下  */
+.banRight:hover span {
+    display: block;
+}
+
+.s_1 {
+    left: 20px;
+}
+
+.s_2 {
+    right: 20px;
+}
+
+/* 轮播图结束 banner end */
+
+/* 下一块是content start */
+.line1 {
+    margin-top: 20px;
+}
+
+.line1Top {
+    height: 118px;
+}
+
+.top1 {
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 54px;
+}
+
+.t_1 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 18px;
+    margin-right: 49px;
+    color: #33338c;
+}
+
+.t_2 {
+    color: #999999;
+}
+
+/* top2 */
+.top2 {
+    height: 40px;
+    padding-top: 24px;
+    font-size: 12px;
+}
+
+.top2 span {
+    display: block;
+    background: #e6e6e6;
+    border-radius: 50%;
+    color: #fbf5e6;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.o_1 {
+    color: #999;
+    margin-right: 54px;
+}
+
+.o_2 {
+    color: #57cde9;
+}
+
+/* 下面岗位具体的信息 */
+.conUl {
+    /* background: gold; */
+}
+
+.conBox1 {
+    width: 354px;
+    height: 174px;
+    border: 1px solid #eaeeed;
+    /* 三个值的时候 表示  上 左右 下 */
+    padding: 24px 17px 0;
+}
+
+.job {
+    font-size: 18px;
+}
+
+.time {
+    color: #9999b2;
+    /* 上下 0  左右 8px  */
+    margin: 0 8px;
+}
+
+.job img {
+    margin-top: -12px;
+}
+
+.money {
+    margin-right: 16px;
+    font-size: 12px;
+    color: #fa6041;
+    margin-top: 4px;
+}
+
+.time2 {
+    font-size: 16px;
+    color: #7777a1;
+    margin: 10px 0 10px 0;
+}
+
+.d_1,
+.d_2 {
+    font-size: 14px;
+    color: #7777a1;
+    border: 1px solid #ddd;
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.d_1 {
+    margin: 10px 10px 18px 5px;
+}
+
+.d_2 {
+    margin: 10px 0px 18px 0px;
+}
+
+/* 加一根虚线 */
+.pBottom {
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 6px;
+}
+
+.imgBox3 img {
+    width: 40px;
+    height: 40px;
+    margin: 9px 20px 11px 11px;
+}
+
+.imgTxt {
+    font-size: 12px;
+}
+
+.s_1 {
+    color: #555555;
+    margin: 18px 0 6px 0;
+}
+
+.s_2 {
+    color: #999999;
+}
+
+.conUl li div:nth-of-type(2) {
+    margin: 0 15px;
+}
+
+.conUl li {
+    margin-bottom: 16px;
+}
+
+.more {
+    width: 385px;
+    height: 38px;
+    border: 1px solid #00b38a;
+    color: #00b38a;
+    margin: 0 auto;
+    line-height: 38px;
+    text-align: center;
+
+}
+
+/* 热门公司榜 下面的部分  */
+
+
+.conList2 {
+    width: 260px;
+    height: 226px;
+    border: 1px solid #eee;
+    padding: 20px 12px 20px 12px;
+    text-align: center;
+    margin: 0 11px;
+    margin-bottom: 16px;
+
+}
+
+/* 第一个块 */
+.conList2:nth-child(2n-1) {
+    margin-left: 0;
+}
+
+/* 第四个块  */
+.conList2:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conList2 img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 17px;
+}
+
+.conList2 span {
+    text-align: center;
+    display: block;
+}
+
+.x_1 {
+    margin: 8px 0 10px 0;
+    color: #9999b2;
+    font-size: 14px;
+}
+
+.x_2 {
+    font-size: 14px;
+    /* 强制不换行   */
+    white-space: nowrap;
+    /* 超出容器的部分 隐藏 */
+    overflow: hidden;
+    /* 超出的部分变成省略号 */
+    text-overflow: ellipsis;
+    /* 加一个虚线 */
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 16px;
+}
+
+.conList3 {
+
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+/* 选中第二个 给它的左边和右边分别加上竖线 */
+.conList3 div:nth-child(2) {
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    margin: 0 6px;
+}
+
+.con_1 span {
+    color: #00b3a7;
+    padding-bottom: 2px;
+}
+
+.con_1 p {
+    color: #999999;
+
+}
+
+.con_1 {
+    width: 78px;
+
+}
+
+/* 友情链接部分 */
+.top3 {
+    font-size: 12px;
+    padding-top: 22px;
+}
+
+.top3 a {
+    margin-right: 18px;
+    color: #555;
+}
+
+.top3 img {
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+}
+
+.top3 p {
+    color: #999999;
+
+}
+
+/* 底部 footer start */
+.footer {
+    border-top: 1px solid #ebebeb;
+    margin-top: 74px;
+}
+
+.fooTop {
+    height: 246px;
+    padding-top: 40px;
+}
+
+.appBox {
+    width: 314px;
+    height: 170px;
+    border-right: 1px solid #e8e8e8;
+
+}
+
+.p_1,
+.p_2 {
+    width: 180px;
+    height: 40px;
+    border: 1px solid #00c3d3;
+    color: #00c3d3;
+    /* text-align: center; */
+    line-height: 40px;
+    /* margin: 0 auto; */
+}
+
+.p_1 {
+    margin-bottom: 14px;
+}
+
+.p_3 {
+    font-size: 12px;
+    color: #555;
+    margin: 18px 0 30px 0px;
+}
+
+.p_3 img {
+    width: 20px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.p_3 .i_1 {
+    margin-left: 26px;
+}
+
+.appBox span {
+    width: 12px;
+    height: 15px;
+    float: left;
+    margin: 12px 8px 0 37px;
+    background: url('../icons/1.jpg');
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+    background-size: 9px 14px;
+}
+
+.q_1 {
+    margin-left: 125px;
+}
+
+.y_1 {
+    margin: 0 170px;
+}
+
+dt {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 36px;
+}
+
+dd {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 17px;
+}
+
+.fooBottom {
+    height: 100px;
+}
+
+.bonCon {
+    height: 100px;
+
+}
+
+.ip {
+    width: 50px;
+    height: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.c_1,
+.c_2 {
+    font-size: 12px;
+    color: #555;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.c_2 span {
+    width: 16px;
+    height: 16px;
+    background: url('../icons/8.jpg') no-repeat;
+    background-position: 0px -6px;
+    margin-right: 3px;
+}
+
+.c_3 {
+    width: 186px;
+    height: 58px;
+    border: 1px solid #eee;
+    margin-top: 28px;
+}
+
+.c_3 span {
+    width: 20px;
+    height: 24px;
+    background: url('../icons/9.png') no-repeat;
+    margin: 18px 5px 0 20px;
+}
+
+.c_3 p {
+    font-size: 12px;
+    margin-top: 11px;
+}

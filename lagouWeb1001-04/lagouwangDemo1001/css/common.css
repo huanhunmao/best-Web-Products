@@ -1,0 +1,34 @@
+/*********
+* 日期：2020/10/01
+* 作者：fhj
+* 用途：css部分 公共的样式
+* other：无
+* version：V1.0
+*/
+/* 大块居中 */
+.Ct {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 清除浮动  */
+.cle:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 去掉边框  */
+.bN {
+    border: none;
+}

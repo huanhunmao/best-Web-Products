@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>test</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    // 深拷贝 走一手 
+    function deepClone(obj) {
+        // 判断是数组还是对象  是数组返回true  则等于第一个 []
+        let objClone = Array.isArray(obj) ? [] : {};
+        // typeof Array, Object, new function() 都会返回'object',
+        // 所以使用typeof不能准确的判断变量是否为object
+        if (obj && typeof obj === 'object') {
+            // 进行循环 判断对象是否包含某个key 属性
+            for (key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    // 判断obj子元素是否为对象 如果是 递归复制
+                    if (obj[key] && typeof obj[key] === 'object') {
+                        objClone[key] = deepClone(obj[key]);
+                    } else {
+                        // 如果不是对象 就简单复制 
+                        objClone[key] = obj[key];
+                    }
+                }
+            }
+        }
+        return objClone;
+    }
+    // 测试一手 
+    let a = {
+        a: 1,
+        b: 2,
+        c: {
+            d: 3,
+        }
+    }
+    let b = deepClone(a);
+    console.log(b);
+    b.c.d = 77;
+    console.log(a);
+    console.log(b);
+</script>
