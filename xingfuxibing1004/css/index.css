@@ -1,0 +1,83 @@
+/*********
+* 日期：2020/10/04
+* 作者：fhj
+* 用途：主页的html
+* other：无
+* version：V1.0
+*/
+
+
+
+/* 第二部分  banner start */
+
+.banner {
+    height: 662px;
+    margin-top: 77px;
+}
+
+.banner img {
+    width: 100%;
+    height: 662px;
+}
+
+/* banner end */
+
+/* <!-- 第三部分 cake_type start --> */
+.cake_type {
+    width: 100%;
+    height: 477px;
+    background: skyblue;
+}
+
+/* 分成三个相等的部分 */
+.cake_type div {
+    width: 33.33%;
+    height: 477px;
+    float: left;
+    text-align: center;
+    /* 子元素使用margin-top 父级元素需要加上这个 */
+    overflow: hidden;
+}
+
+/* 分别设置三个的背景颜色 */
+.cake_type div:nth-child(1) {
+    background: #eee2c8;
+}
+
+.cake_type div:nth-child(2) {
+    background: #ddc69d;
+}
+
+.cake_type div:nth-child(3) {
+    background: #eee2c8;
+}
+
+.cake_type div img {
+    width: 290px;
+    height: 191px;
+    margin-top: 77px;
+}
+
+
+
+.cake_type a:nth-of-type(1) {
+    margin-bottom: 60px;
+    display: block;
+}
+
+.cake_type a:nth-of-type(2) {
+    font-size: 14px;
+    border-bottom: 1px solid #1d181c;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.s_1 {
+    font-weight: bolder;
+}
+
+.cake_type p {
+    margin-top: 25px;
+}
+
+/* cake_type end */

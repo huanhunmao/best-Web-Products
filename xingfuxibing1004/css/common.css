@@ -1,0 +1,22 @@
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 清除浮动  */
+.cle:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 子元素 加 margin-top的时候
+父元素常常需要加这个  多余的部分不显示 */
+.of {
+    overflow: hidden;
+}

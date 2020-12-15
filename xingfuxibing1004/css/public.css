@@ -1,0 +1,148 @@
+/*********
+* 日期：2020/10/04
+* 作者：fhj
+* 用途：存放的是页面头部和底部相同的代码
+* other：无
+* version：V1.0
+*/
+
+/* 头部header start */
+.xf_header {
+    width: 100%;
+    height: 77px;
+    background: #fff;
+    border-bottom: 1px solid #9d9895;
+    /* 把最上面的部分固定住 */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header {
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+header a img {
+    width: 217px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.city {
+    margin-top: 29px;
+    font-size: 12px;
+}
+
+.city img {
+    width: 11px;
+    height: 17px;
+    margin-left: 31px;
+    margin-right: 7px;
+}
+
+.city span {
+    margin-right: 3px;
+}
+
+.city a {
+    padding: 9px;
+    background: #ccc;
+    color: #fff;
+}
+
+.nav {
+    height: 77px;
+    /* 行高等于容器的高度的时候 里面的东西可以在垂直方向居中 */
+    line-height: 77px;
+    margin-left: 66px;
+}
+
+.nav a {
+    color: #220e03;
+    margin-right: 29px;
+}
+
+/* 最后一个 通常不设置右边的间距 */
+.nav a:last-child {
+    margin-right: 0;
+}
+
+/* 第一个间距不一样 重新设置一下 */
+.nav a:first-child {
+    margin-right: 36px;
+}
+
+.link {
+    margin-top: 25px;
+}
+
+.link img {
+    width: 23px;
+    height: 23px;
+    margin-right: 23px;
+}
+
+.link a {
+    padding: 12px 8px 12px 8px;
+    border: 1px solid #989898;
+    color: #03000e;
+}
+
+/* xf_header end */
+
+/* xf_footer start */
+.xf_footer {
+    width: 1251px;
+    height: 125px;
+    background: #3e2d23;
+    margin: 0 auto;
+}
+
+.msg {
+    margin-top: 37px;
+}
+
+.msg a {
+    color: #fff;
+    padding-right: 22px;
+    /* 每个右边加一个小竖线 */
+    border-right: 1px solid #b3a59c;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.msg a:last-child {
+    border-right: 0;
+}
+
+/* 右边的部分 tel */
+.tel {
+    margin-top: 37px;
+    margin-left: 75px;
+}
+
+.tel a {
+    margin-right: 45px;
+    color: #fff;
+}
+
+.tel a img {
+    float: left;
+    margin-right: 3px;
+}
+
+/* 最下面一部分  */
+.footer2 {
+    text-align: center;
+    margin-top: 34px;
+}
+
+/* 每个元素距离分开 */
+.compy span,
+a {
+    margin-right: 40px;
+    font-size: 12px;
+    color: #fff;
+}

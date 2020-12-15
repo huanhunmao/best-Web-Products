@@ -1,0 +1,31 @@
+/* < !--
+/*********
+* 日期：2020/10/05
+* 作者：fhj
+* 用途：列表详情页common2.css
+* other：无
+* version：V1.0
+*/
+
+
+/* 多余部分遮挡 */
+.of {
+    overflow: hidden;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.cle:after {
+    content: "";
+    display: block;
+    clear: both;
+}
