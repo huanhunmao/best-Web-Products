@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: inline-block;
+}
+.container{
+	
+}
+/*背景*/
+.backgroundGame{
+	width: 100%;
+	height: 656px;
+	position: relative;
+	background-color: #333333;
+}
+/*暂停继续按钮*/
+#start_Pause{
+	/*width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: #e5e5e5;
+	cursor:pointer;
+	margin:0 auto;
+	top: 20px;
+	left: 35px;
+	display: none;*/
+	/*为什么是负数呢*/
+	/*因为原图片非常大，
+	缩小后会处于偏离原图片的方向，
+	而这个移动是在原图片上的基础上一定的，
+	所以会是负数*/
+	/*top:-190px;
+	left:-190px;*/
+}
+#start-walk{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: #e5e5e5;
+	cursor:pointer;
+	margin:0 auto;
+	top: 20px;
+	left: 35px;
+	display: none;
+}
+#pause-walk{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: #e5e5e5;
+	cursor:pointer;
+	margin:0 auto;
+	top: 20px;
+	left: 35px;
+	display: none;
+}
+.content{
+	/*测试*/
+	/*width: 100%;
+	height: 635px;
+	margin:0 auto;*/
+}
+.nowScore{
+	width: 100%;
+	height: 100%;
+	/*position: absolute;*/
+}
+/*分数样式*/
+.nowScore p{
+	/*margin:0 auto;*/
+	position: absolute;
+	/*display: inline-block;*/
+	font-size:24px;
+	color:white;
+	z-index:10;
+	top:10px;
+	left: 270px;
+}
+/*实时分数*/
+#now_score{
+	position:absolute;
+	font-size:24px;
+	z-index:10;
+	color:white;
+	top:10px;
+	left: 335px;
+}
+/*游戏区域*/
+.backgroundPlayGame{
+	width: 825px;
+	height: 635px;
+	background:url("../img/bg-img.png") no-repeat 0px 0px;
+	position: absolute;
+	margin: 0 auto;
+	display:inline-block;
+	/*text-align: center;*/
+	left: 260px;
+}
+/*蛇活动区域*/
+.run{
+	width: 648px;
+	height: 298px;
+	position:absolute;
+	border:1px solid green;
+	left: 89px;
+	top:168px;
+}
+/*游戏开始*/
+.gameBtn{
+	width: 290px;
+	height: 150px;
+	z-index:999;
+	background:url("../img/start.png") no-repeat 0px 0px; 
+	position: absolute;
+	cursor:pointer;
+	left: 536px;
+	top:236px;
+	/*display:none;*/
+}
+/*游戏结束*/
+.Score{
+	width: 300px;
+	height: 248px;
+	z-index:900;
+	background:url("../img/gameover.png") no-repeat 0px 0px;
+	position:absolute;
+	left: 536px;
+	top:206px;
+	cursor:pointer;
+	display:none;
+}
+/*关闭按钮*/
+.close{
+	width: 30px;
+	height: 30px;
+	z-index:999;
+	background:url("../img/close.png") no-repeat 0px 0px;
+	position:absolute;
+	cursor:pointer;
+	left:765px;
+	top:210px;
+	display:none;
+}
+/*结束分数*/
+#over_score{
+	position:absolute;
+	color:black;
+	font-size:30px;
+	z-index:999;
+	left:569px;
+	top:388px;
+}
+
+.food{
+	background:url("../img/apple.png") no-repeat 0px 0px;
+	background-size:100% 100%;
+}
+.head{
+	background:url("../img/snake.png") no-repeat 0px 0px;
+	background-size:100% 100%;
+}
+.body{
+	background:url("../img/pink.png") no-repeat 0px 0px;
+	background-size:100% 100%;
+}

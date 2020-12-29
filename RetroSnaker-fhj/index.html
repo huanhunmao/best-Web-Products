@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="container">
+
+		<!--背景区域-->
+		<div class="backgroundGame">
+			<!-- 左区域暂停开始按钮 -->
+			<div class="leftSide" id="start_Pause">
+				<img src="img/start-walk.png" alt="" id="start-walk">
+				<img src="img/pause-walk.png" alt="" id="pause-walk">
+			</div>
+			<!-- 中间区域 -->
+			<div class="cotent">
+				<!-- 实时分数 -->
+				<div class="nowScore">
+					<p>分数:</p>
+					<span id="now_score"></span>
+				</div>
+				<!-- 游戏区域 646*298-->
+				<div class="backgroundPlayGame">
+					<!-- 蛇活动区域 -->
+					<div class="run" id="Run">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 开始游戏 -->
+		<div class="beginGame">
+			<!-- 开始游戏按钮 -->
+			<div class="gameBtn" id="GameBtn">
+				<!-- <img src="" alt=""> -->
+			</div>
+		</div>
+
+		<!-- 游戏结束 -->
+		<div class="gameOver">
+			<div class="overScore">
+				<!-- 游戏结束图片 -->
+				<div class="Score" id='lose'></div>
+				<!-- 游戏结束分数 -->
+				<span id="over_score" ></span>
+				<!-- 关闭图片按钮 -->
+				<div class="close" id='close_table'></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
